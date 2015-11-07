@@ -86,8 +86,8 @@ class ContactsGateway {
     }
     
     public function delete($con,$id) {
-        $dbId = mysql_real_escape_string($con,$id);
-        $contacts = $this->selectById($dbId);
+        $dbId = mysqli_real_escape_string($con,$id);
+        $contacts = $this->selectById($con,$dbId);
         mysqli_query($con,"DELETE FROM contacts WHERE id=$dbId");
         return $contacts;
         
