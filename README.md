@@ -29,6 +29,8 @@ I created a page for my app on facebook. I have added the 'like' functionality t
 
 Few extra REST Service endpoints that have been provided have also been tested on Advanced REST Client of Chrome.
 
+Database creation and loading script is provided as RC/contacts.sql.
+
 Out of all requirements asked, everything is covered.
 
 MVC architecture [DONE]
