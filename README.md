@@ -51,5 +51,5 @@ Tools Used:
 WAMPServer 2.4 (WINDOWS + PHP + MYSQL + APACHE HTTP SERVER)
 
 Special PHP extensions to be enabled :
-php_curl
+php_curl,
 php_mysqli
