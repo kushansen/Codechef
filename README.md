@@ -22,7 +22,7 @@ RESTful web services have been tested on Advanced REST Client of Chrome.
 
 Client pages have been made considering Chrome into consideration.
 
-Templating with AJAX has been used to view All Contacts. Handlebars has been used for templating.
+Templating with jQuery and AJAX has been used to view All Contacts. Handlebars has been used for templating.
 
 Breaking of CSS has been checked on IE. The break was bare minimum.
 
@@ -41,8 +41,15 @@ Sessions [DONE]
 REST API (++) [DONE]
 Templating [DONE] - Handlebars has been used to template view all contacts page.
 HTML/CSS [DONE]
-Some Javascript [DONE] - Form validations have been done using javascript. AJAX for viewing all contacts.
+Some Javascript [DONE] - Form validations have been done using javascript. jQuery and AJAX for viewing all contacts.
 Integrate Facebook/Twitter/Openid. (for some bonus points) [DONE] - Facebook page like button.
 
 It would be a plus if you could implement this using REST API so that if required you can create an APP for other platforms(Android etc.)
 [JAVA RESTClient.java HAS BEEN MADE TO DEMONSTRATE THIS FUNCTIONALITY.]
+
+Tools Used:
+WAMPServer 2.4 (WINDOWS + PHP + MYSQL + APACHE HTTP SERVER)
+
+Special PHP extensions to be enabled :
+php_curl
+php_mysqli
