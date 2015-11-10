@@ -238,12 +238,8 @@ class ContactsController {
         $email=$_SESSION['email'];
         $id=$_SESSION['id'];
         $password=$_SESSION['password'];
-        $contacts = $this->contactsService->getAllContacts();
-        if(sizeOf($contacts)>0)
-        $title = "All Contacts";
-        else
-        $title = "No Results Found"; 
-        include 'view/view.php';
+
+        include 'view/all.php';
       	}
     }
     

@@ -1,5 +1,5 @@
 <?php
-    
+  header('Access-Control-Allow-Origin: *');    
 	require_once("Rest.inc.php");
 	require_once 'model/ContactsService.php';
 	
