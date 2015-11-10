@@ -60,8 +60,8 @@
                     <th>Address</th>
                 </tr>
             </thead>
-            <tbody class="tweets">
-            <script id = "tweets-template" type="text/x-handlebars-template">
+            <tbody class="contacts">
+            <script id = "contacts-template" type="text/x-handlebars-template">
             {{#each this}}
                 <tr>
                     <td>{{name}}</td>
@@ -118,8 +118,8 @@ self.attachTemplate();
 };
 
 REST.init({
-template: $('#tweets-template').html(),
-container : $('tbody.tweets')
+template: $('#contacts-template').html(),
+container : $('tbody.contacts')
 });
 
 })();
