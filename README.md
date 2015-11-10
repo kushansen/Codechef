@@ -16,11 +16,13 @@ Functionalities include:
 RC is the PHP REST Server project. It includes Model and Controller. No Views used as it is the RESTful web service.
 It connects to mySQL database with persistence.
 
-Client is the PHP REST Client project. It includes web pages, client controllers and REST client.
+Client is the PHP REST Client project. It includes web pages, client controllers and REST client with handlebars templating.
 
 RESTful web services have been tested on Advanced REST Client of Chrome.
 
 Client pages have been made considering Chrome into consideration.
+
+Templating with AJAX has been used to view All Contacts. Handlebars has been used for templating.
 
 Breaking of CSS has been checked on IE. The break was bare minimum.
 
@@ -29,17 +31,17 @@ I created a page for my app on facebook. I have added the 'like' functionality t
 
 Few extra REST Service endpoints that have been provided have also been tested on Advanced REST Client of Chrome.
 
-Database creation and loading script is provided as RC/contacts.sql.
+Database creation and loading script is provided as contacts.sql.
 
-Out of all requirements asked, everything is covered.
+Out of all requirements asked, everything is covered in my point of view.
 
 MVC architecture [DONE]
 DB persistence [DONE] - mysqli_connect("p:localhost...) for persistent connections.
 Sessions [DONE]
 REST API (++) [DONE]
-Templating [DONE]
+Templating [DONE] - Handlebars has been used to template view all contacts page.
 HTML/CSS [DONE]
-Some Javascript [DONE] - Form validations have been done using javascript.
+Some Javascript [DONE] - Form validations have been done using javascript. AJAX for viewing all contacts.
 Integrate Facebook/Twitter/Openid. (for some bonus points) [DONE] - Facebook page like button.
 
 It would be a plus if you could implement this using REST API so that if required you can create an APP for other platforms(Android etc.)
