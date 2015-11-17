@@ -9,9 +9,9 @@ Then, login to use system functionalities.
 Functionalities include:
 1) Register.
 2) Login.
-1) Edit own contact details.
-2) See the whole contact details.
-3) Search contact db based on his contact knowledge.
+3) Edit own contact details.
+4) See the whole contact details.
+5) Search contact db based on his contact knowledge.
 
 RC is the PHP REST Server project. It includes Model and Controller. No Views used as it is the RESTful web service.
 It connects to mySQL database with persistence.
