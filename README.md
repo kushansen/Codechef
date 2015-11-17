@@ -4,7 +4,7 @@ Codechef
 System implemented is ONLINE YELLOW PAGES.
 One can search for contact details of any other individual.
 One must register first in order to use the system.
-Then, login to can use system functionalities.
+Then, login to use system functionalities.
 
 Functionalities include:
 1) Register.
