@@ -1,5 +1,5 @@
-# Codechef
-Codechef
+# Online Yellow Pages
+Online Yellow Pages
 
 System implemented is ONLINE YELLOW PAGES.
 One can search for contact details of any other individual.
